@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background:  url("http://res.cloudinary.com/johnnypark78/image/upload/v1489266938/bgs/lines.jpg");
+}
+
+container {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.streamers{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.errors{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stream-info{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.preview{
+    width: 180px;
+    border-radius: 10px;
+}
+
+.online{
+    background: white;
+    order: 1;
+}
+
+.offline{
+    background: #bbb;
+    order: 2;
+    align-self: center;
+}
+
+.not-streamer{
+    background: lightblue;
+    order: 3;
+    /*align-self: center;*/
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.logo-div{
+    text-align: center;
+}
+
+.status{
+    text-transform: capitalize;
+}
+
+.status-offline{
+    color: red;
+}
+
+.status-online{
+    color: green;
+}
